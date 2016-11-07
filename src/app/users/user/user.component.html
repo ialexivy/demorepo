@@ -1,0 +1,8 @@
+<div class="card card-block text-xs-center">
+  <img class="img-fluid card-img-top rounded" [src]="user.pictureUrl" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">{{user.firstName}} {{user.lastName}}</h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a [routerLink]="['/users', user.id]" class=" btn btn-primary ">Go somewhere</a>
+  </div>
+</div>
